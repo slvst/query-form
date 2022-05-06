@@ -1,0 +1,54 @@
+<style>
+
+#consultation_form #submit{
+    margin-top:10px;
+}
+/* 次標題改粗體底線*/
+#consultation_form .elementor-field-label{
+    font-weight:1000;
+    text-decoration: underline;
+}
+/* 次選項縮排 */
+.elementor-field-group-consult_about .elementor-field-subgroup > .elementor-field-option{
+    text-indent: 20px;
+}
+/* 首選項不縮排 */
+.elementor-field-group-consult_about .elementor-field-subgroup > .elementor-field-option:nth-child(1), .elementor-field-group-consult_about .elementor-field-subgroup > .elementor-field-option:nth-child(5), .elementor-field-group-consult_about .elementor-field-subgroup > .elementor-field-option:nth-child(8), .elementor-field-group-consult_about .elementor-field-subgroup > .elementor-field-option:nth-child(12), .elementor-field-group-consult_about .elementor-field-subgroup > .elementor-field-option:nth-child(17), .elementor-field-group-consult_about .elementor-field-subgroup > .elementor-field-option:nth-child(22){
+    text-indent: 0;
+}
+/* 懷孕週期欄位 */
+.elementor-field-group-consult_pregnancy{
+    display:none;
+}
+/* 輸入欄位區塊樣式 */
+label.elementor-field-label {
+    width: 100%;
+}
+/* 輸入欄位加驗證鈕區塊 */
+.phone-sms-input-div{
+    display: flex;
+    width: 100%;
+    flex-wrap: nowrap;
+}
+/* 驗證鈕樣式 */
+.verify-button{
+    font-size:14px;
+    width: 90%;
+    background-color:#54595F;
+    margin-left: 20px;
+    padding: 9px 15px;
+}
+/* 驗證簡訊碼區塊 */
+.elementor-field-group-consult_sms{
+    display: none;
+}
+.sms-toggle{
+    display:block;
+}
+/* 手機號碼格式錯誤訊息 */
+.error-message{
+    width:100%;
+    color:#f00;
+}
+
+</style>
